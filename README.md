@@ -1,2 +1,2 @@
 This repository consists of mini coding projects 
- python programming language.
+using python programming language.
