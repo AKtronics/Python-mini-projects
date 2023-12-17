@@ -4,7 +4,7 @@
 
 def Palindrome(arr) :
     rra = arr[ : :-1]
-    
+#@Akashtronics ;)    
     if arr == rra :
       print("YES the array is a palindrome ")
     else :
