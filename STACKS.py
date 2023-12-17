@@ -51,3 +51,49 @@ def Display(stk):
         print(stk[top]," <-- top")
         for a in range(top-1,-1,-1):
             print(stk[a])
+
+#__main__
+Stack = []
+#initially stack is empty
+top = None
+
+while True:
+    print(" ")
+    print("STACK OPERATIONS")
+    print("------------------------------")
+    print("1.Push")
+    print("2.Pop")
+    print("3.Peek")
+    print("4.Display stack")
+    print("5.Exit")
+    
+    opt = int(input("Enter your choice(1-5):"))
+    
+    if opt == 1:
+        item = int(input("Enter item:"))
+        Push(Stack, item)
+        
+    elif opt == 2:
+        item = Pop(Stack)
+        if item == "Underflow":
+            print("Underflow! Stack is empty!")
+        else:
+            print("Popped item is", item)
+            
+    elif opt == 3:
+        item = Peek(Stack)
+        if item == "Underflow":
+            print("Underflow1 Stack is empty!")
+        else:
+            print("Topmost item is", item)
+            
+    elif opt == 4:
+        Display(Stack)
+        
+    elif opt == 5:
+        break
+    
+    else:
+        print("Invalid choice!")
+
+
