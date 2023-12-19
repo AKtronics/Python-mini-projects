@@ -1,4 +1,4 @@
-
+# This is a python program for adding two matrices.
 # Function to add two matrices
 def add_matrices(mat1, mat2):
  # Check if the matrices have the same dimensions
