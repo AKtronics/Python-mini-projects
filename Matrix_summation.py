@@ -36,7 +36,7 @@ matrix2 = [
 # Call the add_matrices function
 
 result_matrix = add_matrices(matrix1, matrix2)
-#@Aktronics ;)
+#@AKtronics ;)
 # Display the result
 
 if isinstance(result_matrix, str):
