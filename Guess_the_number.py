@@ -18,7 +18,7 @@ while True:
           
           if count == 1:
               print("Comgratulations you guessed it right in ",count," try!")
-          #@Aktronics ;)    
+          #@AKtronics ;)    
           else:
               print("Comgratulations you guessed it right in ",count," tries!")
           break    
