@@ -21,7 +21,7 @@ if discriminant > 0:
   root2 = (-b - math.sqrt(discriminant)) / (2*a)
   print("Root 1: ",root1)
   print("Root 2: ",root2)
-  #@Aktronics ;)
+  #@AKtronics ;)
 elif discriminant == 0:
   
  # One real root (repeated)
