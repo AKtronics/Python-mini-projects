@@ -45,7 +45,7 @@ def Peek(stk):
 def Display(stk):
     if isEmpty(stk):
         print("Stack empty")
-        #@Aktronics ;)
+        #@AKtronics ;)
     else:
         top = len(stk) - 1
         print(stk[top]," <-- top")
