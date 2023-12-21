@@ -1,3 +1,9 @@
+#This is a program to check if the given number is a Disarium Number
+#A Disarium number is a number that is equal to the sum of its digits each raised to the
+power of its respective position. For example,
+#89 is a Disarium number because 
+#8 + = 8 + 81 = 89.
+
 def is_disarium(number):
   
  # Convert the number to a string to iterate over its digits
@@ -13,7 +19,7 @@ def is_disarium(number):
  return digit_sum == number
   
 # Input a number from the user
-#@Aktronics ;)
+#@AKtronics ;)
 try:
  num = int(input("Enter a number: "))
  
